@@ -1,0 +1,22 @@
+Python UnitTest FrameWork:-
+---------------------------
+-->In Automation testing organizing your code is very imp and client excepts us to 
+write a automation script according To the manual testcases.
+
+-->We can get a goo reporting structure if we can map our automation test code with manual test cases.
+
+-->In Python we can get UnitTest testing framework to organize our automation code and to extracts reports.
+
+-->To use the methods present in the UnitTest framework , we have to extend the testcases calss present 
+in the UnitTest module.
+ 
+Sample Programme:-
+------------------>
+import unitest
+
+class Test(unittest.TestCase):
+	def test_firstTest(self):
+		print("this is my first Test case")
+
+if__name__=="__main__":
+	unittest.main()
